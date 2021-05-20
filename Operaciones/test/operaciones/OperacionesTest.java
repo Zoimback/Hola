@@ -56,7 +56,7 @@ public class OperacionesTest {
         
     }
     
-   
+   @Ignore
     @Test
     public void testSumarParb() {
         System.out.println("sumarPar");
@@ -75,14 +75,14 @@ public class OperacionesTest {
     /**
      * Test of mayor method, of class Operaciones.
      */
-    @Ignore
+    
     @Test
     public void testMayor() {
         System.out.println("mayor");
-        int a = 0;
-        int b = 0;
+        int a = 2;
+        int b = 1;
         Operaciones instance = new Operaciones();
-        int expResult = 0;
+        int expResult = 2;
         int result = instance.mayor(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
