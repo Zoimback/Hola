@@ -79,10 +79,10 @@ public class OperacionesTest {
     @Test
     public void testMayor() {
         System.out.println("mayor");
-        int a = 2;
+        int a = 3;
         int b = 1;
         Operaciones instance = new Operaciones();
-        int expResult = 2;
+        int expResult = 3;
         int result = instance.mayor(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
